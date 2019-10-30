@@ -1,0 +1,28 @@
+div{
+	margin-left: 30%;
+}
+h1{
+	text-align: center;
+}
+h2{
+	margin-left: 25%;
+}
+section{
+	background-color: black;
+	padding: 20px;
+}
+ul{
+	margin-left: 10%;
+	font-size: 25px;
+	color: white;
+	list-style-type: none;
+}
+td{
+	text-align: center;
+	padding: 5px;
+}
+sec{
+	font-size: 40px;
+	display: block;
+	background-color: green;
+}

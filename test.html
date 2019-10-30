@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<script type="text/javascript">
+		function funame(){
+			var x = document.forms["opd_Form"]["first_name"].value;
+			document.write("Name : ");
+			document.write(x);
+		}
+		function fname(){
+			var x = document.forms["opd_Form"]["father_name"].value;
+			document.write("S/O : ");
+			document.write(x);
+		}
+		function dob(){
+			var x = document.forms["opd_Form"]["bdaymnth"].value;
+			document.write("D.O.B : ");
+			document.write(x);
+		}
+		function mob(){
+			var x = document.forms["opd_Form"]["phone"].value;
+			document.write("Phone No. : ");
+			document.write(x);
+		}
+		function addr(){
+			var x = document.forms["opd_Form"]["address"].value;
+			document.write("Address : ");
+			document.write(x);
+		}
+		function all()
+		{
+			funame();
+			fname();
+			dob();
+			mob();
+			addr();
+		}
+	</script>
+</head>
+<body>
+	<form name="opd_Form">
+		<input type="textbox" name="first_name">
+		<input type="textbox" name="father_name">
+		<input type="button" name="submit" onclick="funame()">
+	</form>
+	<br><br>
+	<!--<form name="opd_form">
+		First Name     : <input type="textbox" name="first_name" maxlength="25"  style="margin-left: 30px;" required><br><br>
+		<!--<Last Name      : <input type="textbox" name="last_name" maxlength="15"  style="margin-left: 31px;" required>-->
+	<!--	Father's Name  : <input type="textbox" name="Father_name" maxlength="15"  style="margin-left: 10px;" required><br><br>
+		Date Of Birth  : <input type="date" name="bdaymnth" style="margin-left: 15px;" required><br><br>
+		Phone no.      : <input type="tel" name="phone" maxlength="10" style="margin-left: 38px;" required><br><br>
+		Address        : <input type="textbox" name="address" maxlength="50"  style="margin-left: 50px; height: 50px; width: 200px;" required><br><br>
+		<input type="button" name="submit" onclick="funame()">
+	</form>   -->
+</body>
+</html>

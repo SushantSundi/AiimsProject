@@ -1,0 +1,12 @@
+sec{
+	font-size: 40px;
+	display: block;
+	background-color: green;
+	color: white;
+}
+dev{
+	font-size: 30px;
+	display: block;
+	background-color: lightgreen;
+	padding: 5px;
+}
